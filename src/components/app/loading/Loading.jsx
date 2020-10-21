@@ -4,7 +4,8 @@ import styles from './Loading.css';
 const Loading = () => (
   <img
     className={styles.Loading}
-    src="https://miro.medium.com/max/978/0*NfFRP_WMxD-XT14o.gif"
+    // eslint-disable-next-line max-len
+    src="https://media4.giphy.com/media/l3vQX4BAzmmXX6hBC/giphy.gif"
     alt="something something loading screen"
   />
 );

@@ -5,7 +5,7 @@ exports[`App component renders App 1`] = `
   <img
     alt="something something loading screen"
     class="Loading"
-    src="https://miro.medium.com/max/978/0*NfFRP_WMxD-XT14o.gif"
+    src="https://media4.giphy.com/media/l3vQX4BAzmmXX6hBC/giphy.gif"
   />
 </DocumentFragment>
 `;
