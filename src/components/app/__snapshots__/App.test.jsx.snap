@@ -2,8 +2,10 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <img
+    alt="something something loading screen"
+    class="Loading"
+    src="https://miro.medium.com/max/978/0*NfFRP_WMxD-XT14o.gif"
+  />
 </DocumentFragment>
 `;
