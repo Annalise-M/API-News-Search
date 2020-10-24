@@ -10,13 +10,12 @@ const Article = () => (
 
 Article.propTypes = {
   title: PropTypes.string.isRequired,
-  imageUrl: PropTypes.any.urlToImage,
+  imageUrl: PropTypes.func.urlToImage,
   author: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired
 };
-
-console.log(Article, 'halllllllllllllllllooooooooo');
 export default Article;
+
 
 
