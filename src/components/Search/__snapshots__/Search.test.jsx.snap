@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`Search component renders Search function for articles 1`] = `
 <DocumentFragment>
   <label
     for="search"
@@ -11,16 +11,12 @@ exports[`App component renders App 1`] = `
     id="search"
     name="search"
     type="search"
-    value=""
+    value="search"
   />
   <button
     data-testid="button"
   >
     Search
   </button>
-  <ul
-    class="ArticleList"
-    data-testid="articles"
-  />
 </DocumentFragment>
 `;
