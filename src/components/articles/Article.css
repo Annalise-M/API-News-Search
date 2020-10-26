@@ -1,12 +1,8 @@
 .Article {
-    width: 5rem;
+    width: 100%;
 
-    img {
-        padding: 0;
-        max-width: 5rem;
+    p {
+        text-align: left;
     }
-
-    figcaption {
-        text-align: center;
-    }
+    
 }

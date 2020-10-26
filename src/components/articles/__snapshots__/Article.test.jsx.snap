@@ -5,7 +5,15 @@ exports[`Article component renders Article 1`] = `
   <figure
     class="Article"
   >
-    <figcaption />
+    <p>
+      test
+    </p>
+    <p>
+      test
+    </p>
+    <p>
+      test
+    </p>
   </figure>
 </DocumentFragment>
 `;

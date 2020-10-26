@@ -6,7 +6,7 @@ const Loading = () => (
     className={styles.Loading}
     // eslint-disable-next-line max-len
     src="https://media4.giphy.com/media/l3vQX4BAzmmXX6hBC/giphy.gif"
-    alt="something something loading screen"
+    alt="something something business cat loading screen"
   />
 );
 

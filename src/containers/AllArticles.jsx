@@ -19,6 +19,7 @@ export default class AllArticles extends Component {
   render() {
     const { loading, articles } = this.state;
     if(loading) return <Loading />;
+    
     return (
       <>
         <ArticleList articles={articles} />
