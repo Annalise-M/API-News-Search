@@ -2,10 +2,25 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <img
-    alt="something something business cat loading screen"
-    class="Loading"
-    src="https://media4.giphy.com/media/l3vQX4BAzmmXX6hBC/giphy.gif"
+  <label
+    for="search"
+  >
+    Search
+  </label>
+  <input
+    id="search"
+    name="search"
+    type="search"
+    value=""
+  />
+  <button
+    data-testid="button"
+  >
+    Search
+  </button>
+  <ul
+    class="ArticleList"
+    data-testid="articles"
   />
 </DocumentFragment>
 `;
