@@ -1,0 +1,20 @@
+
+.ArticleList {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    list-style-type: none;
+    
+    li {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    list-style-type: none;
+    padding: unset;
+    border: .2px light black;
+    }
+}

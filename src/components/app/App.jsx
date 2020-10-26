@@ -1,5 +1,7 @@
 import React from 'react';
+import AllArticles from '../../containers/AllArticles.jsx';
+// import Loading from './loading/Loading.jsx';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <AllArticles />;
 }
