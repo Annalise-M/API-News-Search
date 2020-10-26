@@ -7,7 +7,7 @@ import ArticleList from '../components/articles/ArticleList';
 
 export default class AllArticles extends Component {
   state = {
-    loading: true,
+    loading: false,
     search: '',
     articles: []
   }
@@ -26,7 +26,16 @@ export default class AllArticles extends Component {
   handleSearch = async() => {
     const articleArr = await getArticles(this.state.search);
 
-    this.setState({ articles: articleArr, loading: false });
+    this.setState({ articles: articleArr, loading: true });
+    getArticles(this.state.text)
+      .then(articles => this.setState({
+        articles
+      }))
+      .then(setTimeout(() => {
+        this.setState({ 
+          loading: false 
+        });
+      }, 2000));
   }
 
   render() {
